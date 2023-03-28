@@ -1,0 +1,53 @@
+/* Vision and Mission */
+
+.mainHeading {
+    /* margin-top: 30px; */
+    height: 12vh;
+    color: #004488;
+    font-weight: 700;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSeparation {
+    padding: 0;
+    height: auto;
+    background: #fff;
+    padding: 30px 20px;
+}
+
+.smallHeading {
+    font-size: 25px;
+    height: 7vh;
+    font-weight: 700;
+    display: flex;
+    padding: 0 0 0 20px;
+    align-items: center;
+    color: #004488;
+}
+
+
+/* End of Vision and Mission */
+p {
+    text-align: justify;
+}
+
+.stylerFImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.stylerFImg div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 30vh;
+}
+.stylerFImg div img {
+    margin: 0 auto;
+    height: auto;
+    width: 60%;
+}
