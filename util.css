@@ -51,3 +51,27 @@ p {
     height: auto;
     width: 60%;
 }
+
+#sdsdsd {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+#sdsdsd div {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerImage {
+    width: 20%;
+}
+
+#divideradded {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}

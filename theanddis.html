@@ -35,14 +35,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                                 About Library
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/visandmis.html" id="avam">Vision and Mission</a>
+                                <li><a class="dropdown-item" href="visandmis.html" id="avam">Vision and Mission</a>
                                 </li>
                                 <li><a class="dropdown-item" href="#" id="alc">Library Collection</a></li>
                                 <li><a class="dropdown-item" href="#" id="afp">Faculty publications(Books)</a></li>
@@ -270,7 +270,7 @@
                         <a class="nav-link" href="#">Downloads</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/faqs.html">FAQs</a>
+                        <a class="nav-link" href="faqs.html">FAQs</a>
                     </li>
                     </li>
                     </ul>
@@ -279,28 +279,41 @@
         </nav>
     </div>
 
-
-    <h3 class="mainHeading" data-aos="fade-up">Citation Databases</h3>
-    <div class="mainSeparation">
-        <p>Citation databases allow you to see how often a paper has been cited and follow connections between related
-            works.</p>
+    <h3 class="mainHeading" data-aos="fade-up">Thesis and Dissertations</h3>
+    <div class="mainSeparation" id="divideradded">
+        <p>
+            
+            <img src="outers/ndltd.jpg" class="innerImage" alt="">
+            <br>
+            The <b>Networked Digital Library of Theses and Dissertations (NDLTD)</b> is an international organization
+            dedicated to promoting the adoption, creation, use, dissemination, and preservation of electronic theses and
+            dissertations (ETDs). <br>
+            <a href="https://ndltd.org/thesis-resources/find-etds/">https://ndltd.org/thesis-resources/find-etds/</a>
+        </p>
+        <p>
+            <img src="outers/shodganga.png" class="innerImage" alt="">
+            <br>
+            <b>The Shodhganga@INFLIBNET Centre</b> provides a platform for research students to deposit their Ph.D.
+            theses and make it available to the entire scholarly community through open access. The repository has the
+            ability to capture, index, store, disseminate and preserve ETDs submitted by the researchers.
+            <br>
+            <a href="https://shodhganga.inflibnet.ac.in/">https://shodhganga.inflibnet.ac.in/</a>
+        </p>
     </div>
-    <div id="sdsdsd">
+    <!-- <div id="sdsdsd">
         <div>
-            <img src="/outers/webofscience.jpg" id="imgClick1" class="img-fluid" alt="...">
+            <img src="/outers/ndltd.jpg" id="imgClick1" class="img-fluid" alt="...">
         </div>
         <div>
-            <img src="/outers/scopus.jpg" id="imgClick2" class="img-fluid" alt="...">
+            <img src="/outers/shodganga.png" id="imgClick2" class="img-fluid" alt="...">
         </div>
-        <div>
-            <img src="/outers/googlescholars.png" id="imgClick3" class="img-fluid" alt="...">
-        </div>
-    </div><br><br>
-    <div id="infoDynamic"></div>
+    </div>
+    <br><br>
+    <div id="infoDynamic"></div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/bootnavbar.js"></script>
+    <script src="js/bootnavbar.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="/controllersJS.js"></script>
+    <script src="controllersJS.js"></script>
     <script>
         new bootnavbar();
     </script>
@@ -310,36 +323,25 @@
     <script>
         let imgClick1 = document.getElementById('imgClick1');
         let imgClick2 = document.getElementById('imgClick2');
-        let imgClick3 = document.getElementById('imgClick3');
         let infoDynamic = document.getElementById('infoDynamic');
         imgClick1.style.cursor = 'pointer';
         imgClick1.addEventListener('click', function ()
         {
             infoDynamic.innerHTML = `
-            <h2>Web of Science</h2>
+            <h2>NDLTD</h2>
             <hr>
-            <p>Interdisciplinary coverage of major science publications from 1900 to present.</p>
-            <p>link: <a href="https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fmode%3DNextgen%26action%3Dtransfer%26path%3D%252Fwos%252Fwoscc%252Fbasic-search%26DestApp%3DUA&referrer=mode%3DNextgen%26path%3D%252Fwos%252Fwoscc%252Fbasic-search%26DestApp%3DUA%26action%3Dtransfer&roaming=true" target="_blank">Click to visit</a></p>
+            <p>Zotero is a free, easy to use software which help the researchers to collect, save, manage and cite bibliographic information about the items (books, journal articles etc.) you find on the web.  It also works with word processing programs to help you easily cite your sources as you write.</p>
+            <p>link: <a href="https://www.zotero.org/" target="_blank">https://www.zotero.org/</a></p>
             `;
         });
         imgClick2.style.cursor = 'pointer';
         imgClick2.addEventListener('click', function ()
         {
             infoDynamic.innerHTML = `
-            <h2>Scopus</h2>
+            <h2>Mendeley</h2>
             <hr>
-            <p>Interdisciplinary coverage with cited references from 1970 to the present.</p>
-            <p>link: <a href="https://www.scopus.com/" target="_blank">https://www.scopus.com/</a></p>
-            `;
-        });
-        imgClick3.style.cursor = 'pointer';
-        imgClick3.addEventListener('click', function ()
-        {
-            infoDynamic.innerHTML = `
-            <h2>Google Scholars</h2>
-            <hr>
-            <p>Displays cited references for a paper and allows researchers to track citations to publications by creating an account in "My Citations."</p>
-            <p>link: <a href="https://scholar.google.com/" target="_blank">https://scholar.google.com/</a></p>
+            <p>Mendeley is a free reference manager and academic social network that can help you organize your research, collaborate with others online, and discover the latest research.</p>
+            <p>link: <a href="https://www.mendeley.com/" target="_blank">https://www.mendeley.com/</a></p>
             `;
         });
     </script>
