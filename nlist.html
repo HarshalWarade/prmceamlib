@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/bootnavbar.css" />
     <link rel="stylesheet" href="css/main.css">
-    <title>FAQs</title>
+    <title>PRMCEAM</title>
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/sharp-solid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="util.css">
     <meta name="description" content="Multi level hover dropdown Navbar for bootstrap 4" />
     <meta name="keywords" content="Multi level hover dropdown Navbar for bootstrap 4" />
 </head>
@@ -259,209 +261,116 @@
           </div>
         </nav>
       </div>
+    <style>
+        ol.breadcrumb {
+            height: 7vh;
+            display: flex;
+            /* justify-content: center; */
+            background: #004488ea;
+            color: white;
+            padding: 0 20px;
+            align-items: center;
+            margin: auto 0;
+        }
 
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+        ol li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            display: inline-block;
+        }
 
+        ol li a {
+            text-decoration: none;
+            color: white;
+        }
+        ol li a:hover {
+            color: white;
+        }
+        div.holder ul li a {
+            text-decoration: none;
+        }
+        div.loginTab {
+            text-decoration: none;
+            color: white;
+            width: 100%;
+            height: 7vh;
+            display: flex;
+            /* justify-content: center; */
+            padding: 0 20px;
+            align-items: center;
+            background: #004488d4;
+        }
+        div.loginTab > a {
+            text-decoration: none;
+            color: white;
 
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
-                    style="outline: none; border: none; box-shadow: none;">
-                    How do I become a member of the Library?
-                </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, deserunt,
-                    odio architecto minus dolor, alias dolorem ipsam nulla nihil recusandae incidunt! Modi, cupiditate
-                    est porro omnis odit quo quibusdam temporibus!</div>
-            </div>
+        }
+    </style>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">E-Resources</a></li>
+            <li class="breadcrumb-item active" aria-current="page" style="color: #dfdfdf;">N-LIST</li>
+        </ol>
+        <div class="loginTab">
+            <a href="https://nlist.inflibnet.ac.in/">LogIn to N-LIST</a>
         </div>
+    </nav>
 
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
-                    style="outline: none; border: none; box-shadow: none;">
-                    How do I (an outsider) use the Library?
-                </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus at ea,
-                    maxime facilis officia incidunt velit, doloremque tenetur nostrum dolor voluptatibus quibusdam eius
-                    fugit facere omnis. Porro, praesentium omnis. Optio.</div>
-            </div>
-        </div>
-
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"
-                    style="outline: none; border: none; box-shadow: none;">
-                    What is “OPAC”?
-                </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
-                    style="outline: none; border: none; box-shadow: none;">
-                    How do I search books (in Catalogue (OPAC)?
-                </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
-
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive"
-                    style="outline: none; border: none; box-shadow: none;">
-                    How do I know what e-books are available / accessible to users?
-                </button>
-            </h2>
-            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix"
-                    style="outline: none; border: none; box-shadow: none;">
-                    How do I borrow books?
-                </button>
-            </h2>
-            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingSeven">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven"
-                    style="outline: none; border: none; box-shadow: none;">
-                    What are the issue/return (of books) timings of the Library?
-                </button>
-            </h2>
-            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingEight">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight"
-                    style="outline: none; border: none; box-shadow: none;">
-                    How do I renew / re-issue books I have already borrowed?
-                </button>
-            </h2>
-            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine"
-                    style="outline: none; border: none; box-shadow: none;">
-                    How many times a book can be renewed online?
-                </button>
-            </h2>
-            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTen">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen"
-                    style="outline: none; border: none; box-shadow: none;">
-                    Can I reserve (claim) a book that is already borrowed by another member ?
-                </button>
-            </h2>
-            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingEleven">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven"
-                    style="outline: none; border: none; box-shadow: none;">
-                    How do I claim a book that is already borrowed by another member ?
-                </button>
-            </h2>
-            <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-                    officiis dolorum voluptatum sunt animi temporibus et, maxime, quam harum maiores neque esse ratione
-                    aspernatur dolorem distinctio perferendis reprehenderit magni quas.</div>
-            </div>
-        </div>
-
-
+    
+    <div class="holder" style="padding: 0 20px 60px 20px; background: white; height: auto;">
+        <h3 class="mainHeading" data-aos="fade-up">N-List</h3>
+        <h5>Info</h5>
+        <hr>
+        <p>N-LIST stands for "National Library and Information Services Infrastructure for Scholarly Content". The program was funded by the MHRD under NME-ICT to extend access to selected e-resources to colleges covered under Section 12B of the UGC Act as well as non-aided colleges during 2010 - 2013. The program has subsumed under e-ShodhSindhu Consortium as a college component year 2014 being funded by UGC.</p>
+        <br>
+        <h5>The following resources are available in full text for PRMCEAM users</h5>
+        <hr>
+        <b>E-Journel (Full Text)</b>
+        <ul>
+            <li><a href="http://iam.atypon.com/action/ssostart?idp=https%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth&redirectUri=%2F&targetSP=https%3A%2F%2Faip.scitation.org">American Institute of Physics</a> [18 titles]</li>
+            <li><a href="http://iam.atypon.com/action/ssostart?idp=https%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth&redirectUri=%2F&targetSP=https%3A%2F%2Fwww.annualreviews.org">Annual Reviews</a> [33 titles]</li>
+            <li><a href="http://iproxy.inflibnet.ac.in:2048/login?auth=shibboleth&url=http://www.epw.in/">Economic and Political Weekly (EPW)</a> [1 title] <a href="https://nlist.inflibnet.ac.in/Shibboleth.sso/Login?target=https://nlist.inflibnet.ac.in/veresources.php">Alternate Link</a></li>
+            <li><a href="https://sp.indianjournals.com/Shibboleth.sso/Login?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth&return=https://www.indianjournals.com/">Indian Journals</a> [180+ titles]</li>
+            <li><a href="https://myiopscience.iop.org/signin?origin=deeplink&entity=https://nlistidp.inflibnet.ac.in/idp/shibboleth&target=https://iopscience.iop.org/">Institute of Physics</a> [46 titles]</li>
+            <li><a href="https://shibbolethsp.jstor.org/start?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth&site=jstor&dest=/">JSTOR</a> [2500+ titles]</li>
+            <li><a href="https://oup-sp.sams-sigma.com/Shibboleth.sso/Login?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth&target=https://oup-sp.sams-sigma.com/shib?dest=https://academic.oup.com/SHIBBOLETH?dest=/journals">Oxford University Press</a> [262 titles]</li>
+            <li><a href="https://www.rsc.org/rsc-id/account/checkfederatedaccess?instituteurl=https%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth&returnurl=https%3A%2F%2Fpubs.rsc.org">Royal Society of Chemistry</a> [29 titles]</li>
+            <li><a href="https://search.ebscohost.com/login.aspx?authtype=shib&custid=ns196568&groupid=main">H. W. Wilson</a> [3000+ titles]</li>
+            <li><a href="https://shibboleth.cambridge.org/Shibboleth.sso/discovery?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth&target=https://shibboleth.cambridge.org/CJOShibb2/index?app=https://www.cambridge.org/core/shibboleth?ref=core">Cambridge University Press</a> [224 titles] (2010-2016)</li>     
+        </ul>
+        <br>
+        <b>E-Book</b>
+        <ul>
+            <li><a href="https://shibboleth.cambridge.org/Shibboleth.sso/discovery?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth&target=https://shibboleth.cambridge.org/CJOShibb2/index?app=https://www.cambridge.org/core/shibboleth?ref=core">Cambridge Books Online</a> [1800 titles]</li>
+            <li><a href="https://ebookcentral.proquest.com/lib/inflibnet-ebooks">E-brary</a> [185000+ titles]</li>
+            <li><a href="https://search.ebscohost.com/login.aspx?authtype=shib&custid=ns196568&groupid=main&profile=ebooks">EBSCOhost-Net Library</a> [936 titles]</li>
+            <li><a href="https://sp.igpublish.com/Shibboleth.sso/Login?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth&target=https://sp.igpublish.com/shibboleth/iglib3.jsp?targeturl=/database%26dtbs=hindbook">Hindustan Book Agency</a> [65+ titles]</li>
+            <li><a href="https://sp.igpublish.com/Shibboleth.sso/Login?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth&target=https://sp.igpublish.com/shibboleth/iglib3.jsp?targeturl=/database%26dtbs=iseas">Institute of South East Asian Studies(ISEAS) Books</a> [382+ titles]</li>
+            <li><a href="https://oup-sp.sams-sigma.com/Shibboleth.sso/Login?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth&target=https://oup-sp.sams-sigma.com/shib?dest=https://academic.oup.com/SHIBBOLETH?dest=/books">Oxford Scholarship</a> [1402+ titles]</li>
+            <li><a href="https://fsso.springer.com/federation/init?entityId=https%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth&returnUrl=https%3A%2F%2Flink.springer.com%2Fsearch%3Ffacet-end-year%3D2012%26facet-content-type%3D%2522Book%2522%26date-facet-mode%3Dbetween%26facet-language%3D%2522En%2522%26facet-start-year%3D2005">Springer eBooks</a> [2300 titles]</li>
+            <li><a href="https://connect.openathens.net/sagepub.com/15b7e6a9-8721-41fa-86fe-4e2b8fa4c097/login?entity=https://nlistidp.inflibnet.ac.in/idp/shibboleth&target=http://sk.sagepub.com/books/">Sage Publication eBooks</a> [1000 titles]</li>
+            <li><a href="http://www.tandfebooks.com/action/ssostart?idp=https%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth&redirectUri=https%3A%2F%2Fwww.taylorfrancis.com%2Fsearch%3FisFullAccessOnly%3Dtrue">Taylor Francis eBooks</a> [1800 titles]</li>
+            <li><a href="https://ebookcentral.proquest.com/lib/inflibnet-ebooks">Myilibrary-McGraw Hill</a> [1124 titles]</li>
+            <li><a href="https://southasiacommons.net/start-session?entityID=https://nlistidp.inflibnet.ac.in/idp/shibboleth">South Asia Archive</a> [through NDL]</li>
+            <li><a href="https://ndl.iitkgp.ac.in/result?q=%7B%22t%22:%22sourceOrganization%22,%22k%22:%22%22,%22s%22:%5b%5d,%22b%22:%7B%22browse%22:%22sourceOrganization%22,%22filters%22:%5b%22sourceOrganization=%5C%22WORLD%20eBOOK%20LIBRARY%5C%22%22%5d%7D%7D">World e-Books Library</a> [Now Available through NDL only]</li>
+        </ul>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-        </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="controllersJS.js"></script>
+    <script>
+        new bootnavbar();
+    </script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
