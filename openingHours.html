@@ -7,13 +7,13 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="/css/bootnavbar.css" />
-    <link rel="stylesheet" href="/css/main.css">
-    <title>Citation Databases</title>
+    <link rel="stylesheet" href="css/bootnavbar.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>PRMCEAM</title>
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/sharp-solid.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="/util.css">
+    <link rel="stylesheet" href="util.css">
     <meta name="description" content="Multi level hover dropdown Navbar for bootstrap 4" />
     <meta name="keywords" content="Multi level hover dropdown Navbar for bootstrap 4" />
 </head>
@@ -22,8 +22,6 @@
     <div class="logoSectionResp">
         <img src="https://prmceam.ac.in/wp-content/uploads/2018/07/PRMCEAM-Logo_Badnera-1.png" alt="">
     </div>
-
-
     <div class="mainHoldingContainer">
         <nav class="navbar navbar-expand-lg" id="main_navbar">
             <div class="container-fluid">
@@ -37,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
@@ -301,69 +299,66 @@
         </nav>
     </div>
 
+    <style>
+        ol.breadcrumb {
+            height: 5vh;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            margin: auto 0;
+        }
 
-    <h3 class="mainHeading" data-aos="fade-up">Citation Databases</h3>
-    <div class="mainSeparation">
-        <p>Citation databases allow you to see how often a paper has been cited and follow connections between related
-            works.</p>
+        ol li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            display: inline-block;
+        }
+
+        ol li a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Opening Hours</li>
+        </ol>
+    </nav>
+
+    <h3 class="mainHeading" data-aos="fade-up">Opening Hours</h3>
+    <!-- <hr> -->
+
+
+    <div class="card" data-aos="fade-up" style="border-radius: 0px; width: 100%;">
+        <!-- <h5 class="card-header" style="background-color: #004488; color: white; border-radius: 0px;">Opening Hours -->
+        </h5>
+        <div class="card-body" style="line-height: 20px;">
+            <strong>Monday to Friday</strong>
+            <hr>
+            <p class="card-text">Opening & Closing: 8.00 a.m. to 8.00 p.m. Circulation: 10.00 a.m. to 5.00 p.m.</p>
+            <strong>Saturday</strong>
+            <hr>
+            <p class="card-text">Opening & Closing: 8.00 a.m. to 5.30 p.m. Circulation: 8.00 a.m. to 1.00 p.m.</p>
+            <b style="line-height: 20px; font-size: 14px;">The Central Library will remain closed on Sunday and
+                SGBAU
+                notified holidays.
+                (Holiday List)</b>
+        </div>
+
     </div>
-    <div id="sdsdsd">
-        <div>
-            <img src="/outers/webofscience.jpg" id="imgClick1" class="img-fluid" alt="...">
-        </div>
-        <div>
-            <img src="/outers/scopus.jpg" id="imgClick2" class="img-fluid" alt="...">
-        </div>
-        <div>
-            <img src="/outers/googlescholars.png" id="imgClick3" class="img-fluid" alt="...">
-        </div>
-    </div><br><br>
-    <div id="infoDynamic"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/bootnavbar.js"></script>
+    <script src="js/bootnavbar.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="/controllersJS.js"></script>
+    <script src="controllersJS.js"></script>
     <script>
         new bootnavbar();
     </script>
     <script>
         AOS.init();
-    </script>
-    <script>
-        let imgClick1 = document.getElementById('imgClick1');
-        let imgClick2 = document.getElementById('imgClick2');
-        let imgClick3 = document.getElementById('imgClick3');
-        let infoDynamic = document.getElementById('infoDynamic');
-        imgClick1.style.cursor = 'pointer';
-        imgClick1.addEventListener('click', function ()
-        {
-            infoDynamic.innerHTML = `
-            <h2>Web of Science</h2>
-            <hr>
-            <p>Interdisciplinary coverage of major science publications from 1900 to present.</p>
-            <p>link: <a href="https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fmode%3DNextgen%26action%3Dtransfer%26path%3D%252Fwos%252Fwoscc%252Fbasic-search%26DestApp%3DUA&referrer=mode%3DNextgen%26path%3D%252Fwos%252Fwoscc%252Fbasic-search%26DestApp%3DUA%26action%3Dtransfer&roaming=true" target="_blank">Click to visit</a></p>
-            `;
-        });
-        imgClick2.style.cursor = 'pointer';
-        imgClick2.addEventListener('click', function ()
-        {
-            infoDynamic.innerHTML = `
-            <h2>Scopus</h2>
-            <hr>
-            <p>Interdisciplinary coverage with cited references from 1970 to the present.</p>
-            <p>link: <a href="https://www.scopus.com/" target="_blank">https://www.scopus.com/</a></p>
-            `;
-        });
-        imgClick3.style.cursor = 'pointer';
-        imgClick3.addEventListener('click', function ()
-        {
-            infoDynamic.innerHTML = `
-            <h2>Google Scholars</h2>
-            <hr>
-            <p>Displays cited references for a paper and allows researchers to track citations to publications by creating an account in "My Citations."</p>
-            <p>link: <a href="https://scholar.google.com/" target="_blank">https://scholar.google.com/</a></p>
-            `;
-        });
     </script>
 </body>
 
