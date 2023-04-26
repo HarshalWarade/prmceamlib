@@ -42,13 +42,15 @@
                                 About Library
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="visandmis.html" id="avam">Vision and Mission</a>
+                                <li><a class="dropdown-item" href="visandmis.html" id="avam">Vision and Mission</a></li>
+                                <li><a class="dropdown-item" href="libcollections.html" id="alc">Library Collection</a>
                                 </li>
-                                <li><a class="dropdown-item" href="#" id="alc">Library Collection</a></li>
                                 <li><a class="dropdown-item" href="#" id="afp">Faculty publications(Books)</a></li>
-                                <li><a class="dropdown-item" href="#" id="alco">Library Committee</a></li>
-                                <li><a class="dropdown-item" href="#" id="aoh">Opening Hours</a></li>
-                                <li><a class="dropdown-item" href="#" id="arar">Rules and Regulations</a></li>
+                                <li><a class="dropdown-item" href="libcomittee.html" id="alco">Library Committee</a>
+                                </li>
+                                <li><a class="dropdown-item" href="openingHours.html" id="aoh">Opening Hours</a></li>
+                                <li><a class="dropdown-item" href="rulesandreg.html" id="arar">Rules and Regulations</a>
+                                </li>
                                 <li><a class="dropdown-item" href="#" id="alt">Library Team</a></li>
                             </ul>
                         </li>
@@ -72,6 +74,9 @@
                             <a class="nav-link" href="#">OPAC</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://prmceam.irins.org/" target="_blank">IRINS @PRMCEAM</a>
+                        </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="#">Institutional Repository</a>
@@ -82,9 +87,21 @@
                                 E-Resources
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">N-List</a></li>
-                                <li><a class="dropdown-item" href="#">DELNET</a></li>
-                                <li><a class="dropdown-item" href="#">NDL</a></li>
+                                <li><a class="dropdown-item" href="nlist.html">N-List</a></li>
+                                <li><a class="dropdown-item" href="delnet.html">DELNET</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown">
+                                        NDL
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="ndl.html">NDL</a></li>
+                                        <li><a class="dropdown-item" href="#">National Digital Library Of India Club</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">NDLI club activities</a></li>
+                                        <li><a class="dropdown-item" href="#">NDLI club certificates</a></li>
+                                    </ul>
+                                </li>
                                 <li class="nav-item dropdown">
                                     <a class="dropdown-item dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown">
@@ -102,150 +119,169 @@
                                         <li><a class="dropdown-item" href="#">Physics</a></li>
                                         <li><a class="dropdown-item" href="#">Chemistry</a></li>
                                         <li><a class="dropdown-item" href="#">Science & Humanities</a></li>
-                                        <li><a class="dropdown-item" href="#">Open educational resources</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Open Educational Resources</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="dropdown-item dropdown-toggle" target="_blank" href="#" role="button"
-                                        data-bs-toggle="dropdown">
-                                        Open Access Directories
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" target="_blank" href="https://doaj.org/">Directory
-                                                of Open Access
-                                                Journals (DOAJ)</a>
-                                        </li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.opendoar.org/">Directory of Open
-                                                Access Repositories
-                                                (OpenDOAR)</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="https://www.doabooks.org/doab?func=browse&&uiLanguage=en">Directory
-                                                of Open Access
-                                                Books</a></li>
-                                        <li><a class="dropdown-item" target="_blank" href="http://www.oalib.com/">Open
-                                                Access Library
-                                                (OALib)</a></li>
-                                    </ul>
-                                </li>
-
-
                                 <li class="nav-item dropdown">
                                     <a class="dropdown-item dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown">
-                                        ETD Resources (e-Thesis)
+                                        Open Educational Resources
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.ndltd.org/">Networked Digital Library
-                                                of Thesis and Dissertations (NDLTD)</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-item dropdown-toggle" target="_blank" href="#"
+                                                role="button" data-bs-toggle="dropdown">
+                                                Open Access Directories
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="https://doaj.org/">Directory of Open Access
+                                                        Journals (DOAJ)</a>
+                                                </li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.opendoar.org/">Directory of Open
+                                                        Access Repositories
+                                                        (OpenDOAR)</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="https://www.doabooks.org/doab?func=browse&&uiLanguage=en">Directory
+                                                        of Open Access
+                                                        Books</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.oalib.com/">Open Access Library
+                                                        (OALib)</a></li>
+                                            </ul>
                                         </li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://shodhganga.inflibnet.ac.in/">Shodhganga :
-                                                a reservoir of Indian Thesis</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="https://openknowledge.worldbank.org/">World Bank:
-                                                Open Knowledge Repository</a></li>
-                                        <li><a class="dropdown-item" target="_blank" href="http://www.oalib.com/">Open
-                                                Access Library
-                                                (OALib)</a></li>
-                                    </ul>
+
+
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown">
+                                                ETD Resources (e-Thesis)
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.ndltd.org/">Networked Digital
+                                                        Library
+                                                        of Thesis and Dissertations (NDLTD)</a>
+                                                </li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://shodhganga.inflibnet.ac.in/">Shodhganga :
+                                                        a reservoir of Indian Thesis</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="https://openknowledge.worldbank.org/">World
+                                                        Bank:
+                                                        Open Knowledge Repository</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.oalib.com/">Open Access Library
+                                                        (OALib)</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown">
+                                                E-Books
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.ams.org/samplings/math-history/math-history">AMS
+                                                        Free Online Books</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="https://bookboon.com/">Bookboon</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.doabooks.org/doab?uiLanguage=en">Directory of
+                                                        Open Access Books (DOAB)</a>
+                                                </li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="https://www.intechopen.com/">INTECH Open
+                                                        Access
+                                                        Books</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="https://www.jstor.org/open/">JSTOR Open
+                                                        Content</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.gutenberg.org/">Project
+                                                        Gutenberg</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+
+
+
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown">
+                                                E-Journals
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.biomedcentral.com/">BioMed
+                                                        Central</a>
+                                                </li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://ccj.springeropen.com/">Chemistry
+                                                        Central
+                                                        Journal</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.niscair.res.in/ScienceCommunication/sci.asp?a=topframe.htm&&b=leftcon.asp&&c=ResearchJournals/rejour/rejour1.htm&&d=test">CSIR-NISCAIR
+                                                        Journals</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.ias.ac.in/">Indian Academy of
+                                                        Sciences</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.indmed.nic.in/medindlist.html">JSTOR
+                                                        Open Content</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.medknow.com/">Medknow Journals</a>
+                                                </li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="https://www.plos.org/publications">PLOS
+                                                        Journals</a></li>
+                                                <li><a class="dropdown-item" target="_blank"
+                                                        href="http://www.ncbi.nlm.nih.gov/pmc/">PubMed
+                                                        Central</a></li>
+                                            </ul>
+                                        </li>
+
+
                                 </li>
-
-
                                 <li class="nav-item dropdown">
                                     <a class="dropdown-item dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown">
-                                        E-Books
+                                        E-Newspapers
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.ams.org/samplings/math-history/math-history">AMS Free
-                                                Online Books</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="https://bookboon.com/">Bookboon</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.doabooks.org/doab?uiLanguage=en">Directory of Open
-                                                Access Books (DOAB)</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="https://www.intechopen.com/">INTECH Open Access
-                                                Books</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="https://www.jstor.org/open/">JSTOR Open
-                                                Content</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.gutenberg.org/">Project Gutenberg</a>
-                                        </li>
+                                                href="http://e-paperview.in/">E-Paperview</a></li>
                                     </ul>
                                 </li>
-
-
-
-
-
-                                <li class="nav-item dropdown">
-                                    <a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown">
-                                        E-Journals
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.biomedcentral.com/">BioMed Central</a>
-                                        </li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://ccj.springeropen.com/">Chemistry Central
-                                                Journal</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.niscair.res.in/ScienceCommunication/sci.asp?a=topframe.htm&&b=leftcon.asp&&c=ResearchJournals/rejour/rejour1.htm&&d=test">CSIR-NISCAIR
-                                                Journals</a></li>
-                                        <li><a class="dropdown-item" target="_blank" href="http://www.ias.ac.in/">Indian
-                                                Academy of
-                                                Sciences</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.indmed.nic.in/medindlist.html">JSTOR
-                                                Open Content</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.medknow.com/">Medknow Journals</a>
-                                        </li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="https://www.plos.org/publications">PLOS
-                                                Journals</a></li>
-                                        <li><a class="dropdown-item" target="_blank"
-                                                href="http://www.ncbi.nlm.nih.gov/pmc/">PubMed
-                                                Central</a></li>
-                                    </ul>
-                                </li>
-
-
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                E-Newspapers
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" target="_blank"
-                                        href="http://e-paperview.in/">E-Paperview</a></li>
                             </ul>
                         </li>
+
                         <li class="nav-item dropdown">
                             <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                                 Others
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" target="_blank"
-                                        href="https://egyankosh.ac.in/">E-Gyankosh</a></li>
+                                        href="https://egyankosh.ac.in/">E-Gyankosh</a>
+                                </li>
                                 <li><a class="dropdown-item" target="_blank"
-                                        href="https://www.catalyst.org/">Catalyst</a></li>
+                                        href="https://www.catalyst.org/">Catalyst</a>
+                                </li>
                                 <li><a class="dropdown-item" target="_blank" href="https://www.khanacademy.org/">Khan
                                         Academy</a></li>
                                 <li><a class="dropdown-item" target="_blank" href="https://ocw.mit.edu/">MIT Open
                                         CourseWare</a></li>
                                 <li><a class="dropdown-item" target="_blank"
-                                        href="https://nopr.niscair.res.in/">NOPR</a></li>
+                                        href="https://nopr.niscair.res.in/">NOPR</a>
+                                </li>
                                 <li><a class="dropdown-item" target="_blank" href="https://nptel.ac.in/">NPTEL</a></li>
                                 <li><a class="dropdown-item" target="_blank"
-                                        href="http://nroer.gov.in/welcome">NROER</a></li>
+                                        href="http://nroer.gov.in/welcome">NROER</a>
+                                </li>
                                 <li><a class="dropdown-item" target="_blank" href="https://www.oercommons.org/">OER
                                         Commons</a></li>
                                 <li><a class="dropdown-item" target="_blank" href="https://oatd.org/">OATD</a></li>
@@ -258,7 +294,8 @@
                                         href="https://shodhganga.inflibnet.ac.in/">ShodhGanga</a>
                                 </li>
                                 <li><a class="dropdown-item" target="_blank"
-                                        href="https://rarebooksocietyofindia.org">Rare Book Society
+                                        href="https://rarebooksocietyofindia.org">Rare
+                                        Book Society
                                         of Indian</a></li>
                             </ul>
                         </li>
@@ -308,7 +345,8 @@
         let imgClick2 = document.getElementById('imgClick2');
         let infoDynamic = document.getElementById('infoDynamic');
         imgClick1.style.cursor = 'pointer';
-        imgClick1.addEventListener('click', function() {
+        imgClick1.addEventListener('click', function ()
+        {
             infoDynamic.innerHTML = `
             <h2>Zotero</h2>
             <hr>
@@ -317,7 +355,8 @@
             `;
         });
         imgClick2.style.cursor = 'pointer';
-        imgClick2.addEventListener('click', function() {
+        imgClick2.addEventListener('click', function ()
+        {
             infoDynamic.innerHTML = `
             <h2>Mendeley</h2>
             <hr>

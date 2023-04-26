@@ -7,10 +7,12 @@
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
 }
+
 *::selection {
     background: #b4d5fe;
     color: black;
 }
+
 btn:focus,
 a:focus {
     outline: none;
@@ -166,13 +168,15 @@ footer {
         height: 50%;
         width: 90%;
     }
+
     .containerHolder-parent {
         display: flex;
         flex-direction: column;
     }
+
     .stylerFImg {
         display: grid;
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 }
 
