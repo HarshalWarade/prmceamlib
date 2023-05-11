@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/bootnavbar.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Faculty Publication</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/sharp-solid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="util.css">
+    <meta name="description" content="Multi level hover dropdown Navbar for bootstrap 4" />
+    <meta name="keywords" content="Multi level hover dropdown Navbar for bootstrap 4" />
+</head>
+
+<body>
+    <div class="logoSectionResp">
+        <img src="https://prmceam.ac.in/wp-content/uploads/2018/07/PRMCEAM-Logo_Badnera-1.png" alt="">
+    </div>
+    <!-- navbar command -->
+    <script src="controllersJS.js"></script>
+
+    <h3 class="mainHeading" data-aos="fade-up">Faculty Publication</h3>
+    <style>
+        .searchHolder {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2rem;
+        }
+        .searchHolder .sameSearch {
+            border: 1px solid red;
+            height: 6vh;
+            padding: 0 0 0 15px;
+            border-radius: 4px;
+            border: none;
+            outline: none;
+        }
+        li {
+            list-style: none;
+        }
+    </style>
+    <div class="searchHolder">
+        <input type="text" id="searchbar" onkeyup="search_animal()" class="sameSearch" placeholder="Type here anything to search...">
+        <!-- <input type="text" id="authorwaala" class="sameSearch" placeholder="Enter author to search..."> -->
+    </div>
+    <style>
+        #likeTable {
+            margin-top: 10px;
+            border: 1px solid #888;
+            background: #fff;
+            border-radius: 4px;
+            height: auto;
+        }
+        #likeTable > div.tableItem {
+            display: grid;
+            border-bottom: 1px solid #ccc;
+            grid-template-columns: repeat(5,1fr);
+        }
+        #likeTable > div.tableItem:nth-child(1) > div {
+            border-bottom: 3px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 8vh;
+        }
+        .flex {
+            border-right: 1px solid #ccc;
+            text-align: justify;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        .flex p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex img {
+            height: 25vh;
+            width: auto;
+            margin: 0 auto;
+        }
+        .buyLink {
+            text-decoration: none;
+            background: #e9b703;
+            color: white;
+            padding: 8px 12px;
+            transition: 0.4s ease;
+            border-radius: 4px;
+            border: 1px solid #e9b703;
+        }
+        .buyLink:hover {
+            background: green;
+            border: 1px solid green;
+            color: white;
+        }
+    </style>
+
+    <div id="likeTable">
+        <div class="tableItem">
+            <div>
+                <b>Book Title</b>
+            </div>
+            <div>
+                <b>Author/s</b>
+            </div>
+            <div>
+                <b>Year of Publication</b>
+            </div>
+            <div>
+                <b>Book Cover</b>
+            </div>
+            <div>
+                <b>Publisher Link</b>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Experimental investigation on Grouted pavement</p>
+            </div>
+            <div class="flex">
+                <p>Dr. Shrikant Harle</p>
+            </div>
+            <div class="flex">
+                <p>2019</p>
+            </div>
+            <div class="flex">
+                <a href="publicationBooks/1.jpg"><img src="publicationBooks/1.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.morebooks.shop/shop-ui/shop/product/978-620-0-30263-2" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Intelligent CRM</p>
+            </div>
+            <div class="flex">
+                <p>Dr. D. G.  Harkut & Vaishnavi D. Harkut</p>
+            </div>
+            <div class="flex">
+                <p>2019</p>
+            </div>
+            <div class="flex">
+                <a href="publicationBooks/2.jpg"><img src="publicationBooks/2.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.lap-publishing.com/catalog/details/store/gb/book/978-620-0-09431-5/intelligent-crm?search=Harkut" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Cognitive Scheduler: FPGA based Adaptive Hardware Scheduler</p>
+            </div>
+            <div class="flex">
+                <p>Dr. D. G. Harkut & Dr. K. N. Kasat</p>
+            </div>
+            <div class="flex">
+                <p>2021</p>
+            </div>
+            <div class="flex">
+                <a href="publicationBooks/3.jpg"><img src="publicationBooks/3.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.morebooks.shop/shop-ui/shop/product/978-620-3-84117-6" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>An easy approach to JAVA</p>
+            </div>
+            <div class="flex">
+                <p>Mr. Altaf Shah & Mr. Vikram Parihar</p>
+            </div>
+            <div class="flex">
+                <p>2021</p>
+            </div>
+            <div class="flex">
+                <a href="publicationBooks/4.jpg"><img src="publicationBooks/4.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.morebooks.shop/shop-ui/shop/product/978-613-9-44992-7" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Introduction to Digital Signal Processing Using MATLAB and Scilab</p>
+            </div>
+            <div class="flex">
+                <p>Dr. Mohd. Atique & Dr. Amol Bhagat</p>
+            </div>
+            <div class="flex">
+                <p>2016</p>
+            </div>
+            <div class="flex">
+                <a href="publicationBooks/5.jpg"><img src="publicationBooks/5.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.vikaspublishing.com/books/engineering/electrical-engineering/introduction-digital-signal-processing-using-matlab-scilab/9789325984318/" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Ransomware Detection Techniques: Design and Analysis</p>
+            </div>
+            <div class="flex">
+                <p>Dr. Amol Prakash Bhagat, Rohit Ravinath Bhange</p>
+            </div>
+            <div class="flex">
+                <p>----</p>
+            </div>
+            <div class="flex">
+                <a href="publicationBooks/6.jpg"><img src="publicationBooks/6.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.mahipublication.com/bookdetails/ransomware-detection-techniques-design-and-analysis/Mjc4/" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Grand Theft Auto (GTA) V</p>
+            </div>
+            <div class="flex">
+                <p>Mr. Shrikant M. Harle</p>
+            </div>
+            <div class="flex">
+                <p>2013</p>
+            </div>
+            <div class="flex">
+                <a href="https://assets.lulu.com/cover_thumbs/1/2/125rnqm9-ebook-shortedge-384.jpg"><img src="https://assets.lulu.com/cover_thumbs/1/2/125rnqm9-ebook-shortedge-384.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="http://www.lulu.com/shop/shrikant-harle/gta-v/ebook/product-21070586.html" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Steel Structure: Techno Scan Publications-Nagpur</p>
+            </div>
+            <div class="flex">
+                <p>Mr. Shrikant M. Harle & Mr. Sarang M. Dhawade</p>
+            </div>
+            <div class="flex">
+                <p>----</p>
+            </div>
+            <div class="flex">
+                <a href="https://us.123rf.com/450wm/newdesignillustrations/newdesignillustrations1902/newdesignillustrations190211443/125451487-not-available-stamp-seal-watermark-with-distress-style-blue-vector-rubber-print-of-not-available.jpg?ver=6"><img src="https://us.123rf.com/450wm/newdesignillustrations/newdesignillustrations1902/newdesignillustrations190211443/125451487-not-available-stamp-seal-watermark-with-distress-style-blue-vector-rubber-print-of-not-available.jpg?ver=6" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="http://www.lulu.com/shop/shrikant-harle/gta-v/ebook/product-21070586.html" class="buyLink disabled" target="_blank"  style="pointer-events: none; cursor: not-allowed;">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Structural Design</p>
+            </div>
+            <div class="flex">
+                <p>Mr. Shrikant M. Harle</p>
+            </div>
+            <div class="flex">
+                <p>2017</p>
+            </div>
+            <div class="flex">
+                <a href="https://us.123rf.com/450wm/newdesignillustrations/newdesignillustrations1902/newdesignillustrations190211443/125451487-not-available-stamp-seal-watermark-with-distress-style-blue-vector-rubber-print-of-not-available.jpg?ver=6"><img src="https://us.123rf.com/450wm/newdesignillustrations/newdesignillustrations1902/newdesignillustrations190211443/125451487-not-available-stamp-seal-watermark-with-distress-style-blue-vector-rubber-print-of-not-available.jpg?ver=6" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="http://www.lulu.com/shop/shrikant-harle/structural-design/ebook/product-23228908.html " class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Experimental Investigation on Grouted Pavement</p>
+            </div>
+            <div class="flex">
+                <p>Mr. Shrikant M. Harle & Dr. P. S. Pajgade</p>
+            </div>
+            <div class="flex">
+                <p>2019</p>
+            </div>
+            <div class="flex">
+                <a href="https://images.our-assets.com/cover/2000x/9786200302632.jpg"><img src="https://images.our-assets.com/cover/2000x/9786200302632.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.lap-publishing.com/catalog/details/store/gb/book/978-620-0-30263-2/experimental-investigation-on-grouted-pavement" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Introduction to Research Methodology</p>
+            </div>
+            <div class="flex">
+                <p>Dr. Shrikant Harle</p>
+            </div>
+            <div class="flex">
+                <p>2020</p>
+            </div>
+            <div class="flex">
+                <a href="https://m.media-amazon.com/images/I/51iY3dFTxbL.jpg"><img src="https://m.media-amazon.com/images/I/51iY3dFTxbL.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.amazon.in/Introduction-RESEARCH-METHODOLOGY-Ingole-Shrikant-ebook/dp/B08L1C5ZD6" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Sustainable Infrastructure: Designing for the Future</p>
+            </div>
+            <div class="flex">
+                <p>Dr. Shrikant Harle</p>
+            </div>
+            <div class="flex">
+                <p>2023</p>
+            </div>
+            <div class="flex">
+                <a href="https://prodimage.images-bn.com/pimages/9798378665952_p0_v1_s600x595.jpg"><img src="https://prodimage.images-bn.com/pimages/9798378665952_p0_v1_s600x595.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.barnesandnoble.com/w/sustainable-infrastructure-shrikant-madhav-harle/1143120083" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Smart Cities: The Future of Urban Development</p>
+            </div>
+            <div class="flex">
+                <p>Dr. Shrikant Harle</p>
+            </div>
+            <div class="flex">
+                <p>2023</p>
+            </div>
+            <div class="flex">
+                <a href="https://images.our-assets.com/cover/2000x/9786206149972.jpg"><img src="https://images.our-assets.com/cover/2000x/9786206149972.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.lap-publishing.com/catalog/details//store/gb/book/978-620-6-14997-2/smart-cities:-the-future-of-urban-development" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+        <div class="tableItem gapGen">
+            <div class="flex">
+                <p>Soft Skills for Librarians</p>
+            </div>
+            <div class="flex">
+                <p>Dr. Supriya A. Bejalwar</p>
+            </div>
+            <div class="flex">
+                <p>2022</p>
+            </div>
+            <div class="flex">
+                <a href="publicationBooks/7.jpg"><img src="publicationBooks/7.jpg" alt=""></a>
+            </div>
+            <div class="flex">
+                <a href="https://www.morebooks.shop/shop-ui/shop/product/978-3-330-33551-6" class="buyLink" target="_blank">Click here</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        new bootnavbar();
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function search_animal() {
+            let input = document.getElementById('searchbar').value
+            input = input.toLowerCase();
+            let x = document.getElementsByClassName('gapGen');
+
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display = "none";
+                } else {
+                    x[i].style.display = "";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

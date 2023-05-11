@@ -22,7 +22,7 @@ document.write(
                             <li><a class="dropdown-item" href="visandmis.html" id="avam">Vision and Mission</a></li>
                             <li><a class="dropdown-item" href="libcollections.html" id="alc">Library Collection</a>
                             </li>
-                            <li><a class="dropdown-item" href="#" id="afp">Faculty publications(Books)</a></li>
+                            <li><a class="dropdown-item" href="facultypublication.html" id="afp">Faculty publications(Books)</a></li>
                             <li><a class="dropdown-item" href="libcomittee.html" id="alco">Library Committee</a>
                             </li>
                             <li><a class="dropdown-item" href="openingHours.html" id="aoh">Opening Hours</a></li>
@@ -110,8 +110,9 @@ document.write(
                                                     of Open Access
                                                     Books</a></li>
                                             <li><a class="dropdown-item" target="_blank"
-                                                    href="http://www.oalib.com/">Open Access Library
-                                                    (OALib)</a></li>
+                                                    href="http://www.oalib.com/">Open Access Library (OALib)
+                                                </a>
+                                            </li>
                                         </ul>
                                     </li>
 
@@ -192,38 +193,38 @@ document.write(
                                             E-Journals
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" target="_blank" href="https://dl.acm.org">ACM Digital
+                                            <li><a class="dropdown-item" target="_blank" href="dl.acm.org">ACM Digital
                                                     Library(few journals and proceedings)</a>
                                             </li>
                                             <li><a class="dropdown-item" target="_blank"
-                                                    href="https://hindawi.com/journals">Hindawi Journals</a>
+                                                    href="hindawi.com/journals">Hindawi Journals</a>
                                             </li>
-                                            <li><a class="dropdown-item" target="_blank" href="https://open.ieee.org">IEEE
+                                            <li><a class="dropdown-item" target="_blank" href="open.ieee.org">IEEE
                                                     Open</a>
                                             </li>
-                                            <li><a class="dropdown-item" target="_blank" href="https://doaj.org">Directory of
+                                            <li><a class="dropdown-item" target="_blank" href="doaj.org">Directory of
                                                     Open Access Journals (Open DOAJ))</a>
                                             </li>
                                             <li><a class="dropdown-item" target="_blank" href="#">CSIR-NIScPR(NISCAIR)
                                                     online periodical Repository</a>
                                             </li>
-                                            <li><a class="dropdown-item" target="_blank" href="https://eurasip.org">The European
+                                            <li><a class="dropdown-item" target="_blank" href="eurasip.org">The European
                                                     Association for Signal Processing (EURASIP) Journals</a>
                                             </li>
                                             <li><a class="dropdown-item" target="_blank"
-                                                    href="https://iopscience.iop.org/journallist">Institute of Physics
+                                                    href="iopscience.iop.org/journallist">Institute of Physics
                                                     electronic journals (IOP)</a>
                                             </li>
                                             <li><a class="dropdown-item" target="_blank"
-                                                    href="https://omicsonline.org/openaccesss">OMICS International Open Access
+                                                    href="omicsonline.org/openaccesss">OMICS International Open Access
                                                     Journals</a>
                                             </li>
                                             <li><a class="dropdown-item" target="_blank"
-                                                    href="https://elsevier.com/open-access/open-access-journals">Elsevier Open
+                                                    href="elsevier.com/open-access/open-access-journals">Elsevier Open
                                                     access Journals</a>
                                             </li>
                                             <li><a class="dropdown-item" target="_blank"
-                                                    href="https://sciencedirect.com">Science Direct</a>
+                                                    href="sciencedirect.com">Science Direct</a>
                                             </li>
                                             <li><a class="dropdown-item" target="_blank" href="emis.de/journals">The
                                                     Electronic Library of Mathematics</a>
@@ -290,6 +291,10 @@ document.write(
                                             engineering</a></li>
                                 </ul>
                             </li>
+                            <li><a class="dropdown-item" href="#">MOOC Courses</a></li>
+                            <li><a class="dropdown-item" href="#">Virtual Labs for Engineers</a></li>
+                            <li><a class="dropdown-item" href="#">Mobile apps for Engineers</a></li>
+                            <li><a class="dropdown-item" href="#">GATE</a></li>
                         </ul>
                     </li>
 
