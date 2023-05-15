@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/bootnavbar.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Gate</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/sharp-solid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="util.css">
+    <meta name="description" content="Multi level hover dropdown Navbar for bootstrap 4" />
+    <meta name="keywords" content="Multi level hover dropdown Navbar for bootstrap 4" />
+</head>
+
+<body>
+    <div class="logoSectionResp">
+        <img src="https://prmceam.ac.in/wp-content/uploads/2018/07/PRMCEAM-Logo_Badnera-1.png" alt="">
+    </div>
+    <script src="controllersJS.js"></script>
+    <style>
+        ol.breadcrumb {
+            height: 5vh;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            margin: auto 0;
+        }
+
+        ol li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            display: inline-block;
+        }
+
+        ol li a {
+            text-decoration: none;
+            color: blue;
+        }
+        .visitgate {
+            background: #004488;
+            padding: 10px 30px;
+            border-radius: 8px;
+            margin-top: 30px;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.4s ease;
+        }
+        .visitgate:hover {
+            color: white;
+            border-radius: 0px;
+        }
+    </style>
+
+    <h3 class="mainHeading" data-aos="fade-up">GATE</h3>
+    <!-- <hr> -->
+    <div class="mainSeparation">
+        <h2 class="smallHeading" data-aos="fade-left">
+            GATE
+        </h2>
+        <hr>
+        <p style="line-height: 35px;">Graduate Aptitude Test in Engineering (GATE) is a national level exam that primarily tests the comprehensive understanding of various undergraduate subjects in Engineering/ Technology/ Architecture/ Science/ Commerce/ Arts. GATE 2023 will be a computer-based test (CBT) which is being organized by the Indian Institute of Technology Kanpur. The exam will be conducted by IISc Bangalore and seven IITs (IIT Bombay, IIT Delhi, IIT Guwahati, IIT Kanpur, IIT Kharagpur, IIT Madras, IIT Roorkee), on behalf of the National Coordination Board - GATE, Department of Higher Education, Ministry of Education (MoE), Government of India (GoI).
+            Qualified GATE score can be used for seeking admission and/or financial assistance to : (i) Master's programs and direct Doctoral programs in Engineering/ Technology/ Architecture/ Science/ Commerce/ Arts; and (ii) Doctoral programs in relevant branches of Arts and Science, in the institutions supported by the MoE and other Government agencies. GATE score is also used by some colleges and institutions for giving admission to students without MoE scholarship/assistantship. Further, many Public Sector Undertakings (PSUs) have been using the GATE score in their recruitment process.
+            </p>
+    </div>
+    <br>
+    <a href="https://gate.iitkgp.ac.in/" class="visitgate">Click to visit</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     
+    <script>
+        new bootnavbar();
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -291,10 +291,62 @@ document.write(
                                             engineering</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item" href="#">MOOC Courses</a></li>
-                            <li><a class="dropdown-item" href="#">Virtual Labs for Engineers</a></li>
-                            <li><a class="dropdown-item" href="#">Mobile apps for Engineers</a></li>
-                            <li><a class="dropdown-item" href="#">GATE</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" target="_blank"
+                                    data-bs-toggle="dropdown">
+                                    MOOC Courses
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.coursera.org/">Coursera</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://gian.iitkgp.ac.in/">Global Initiative of Academic Networks</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.udacity.com/">Udacity</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://skillshare.com/">SkillShare</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.edx.org/school/iimbx">IIM Bangalore online courses</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.edx.org/">EDX</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="http://udemy.com/">Udemy</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://skill-lync.com/all-courses">Skill-Lync</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.futurelearn.com/subjects/science-engineering-and-maths-courses/engineering">Future Learn</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.classcentral.com/provider/swayam?subject=engineering">Swayam</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.classcentral.com/provider/mit-ocw">MIT OpenCourseWare</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.classcentral.com/providers">Other Courses</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" target="_blank"
+                                    data-bs-toggle="dropdown">
+                                    Virtual Labs for Engineers
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" target="_blank" href="https://www.vlab.co.in">Virtual Labs</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="#">E-Yantra</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://virtuallabs.merlot.org/">MERLOT Virtual Labs</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="http://library.csi.cuny.edu/oer/virtuallabs-simulations">CSI Library</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://libguides.mines.edu/oer/simulationslabs">Simulations and Virtual Labs</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" target="_blank"
+                                    data-bs-toggle="dropdown">
+                                    Mobile Apps for Engineers
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" target="_blank" href="#">AutoCAD 360</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://mathpix.com/">Snip by MathPix</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://play.google.com/store/apps/details?id=com.sshh.mechengtoolbox">Mechanical Engineering One</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://apps.apple.com/al/app/fingercad/id364926834">FingerCAD</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://play.google.com/store/apps/details?id=com.wolfram.android.alpha&hl=en_US">Wolfram Alpha</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="#">Graphing Calculator X84</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="#">Droid Tesla Pro</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://play.google.com/store/apps/details?id=com.kruegersystems.circuitdroid&&hl=en">iCircuit Electronic Circuit Simulator</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://apps.apple.com/gb/app/iengineer/id369825047">iEngineer</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://play.google.com/store/search?q=iEngineer&c=apps&hl=en">SoloLearn: Learn to code for free</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://play.google.com/store/apps/details?id=com.ScientificMonkeyLLC.TrussMe&hl=en">TrussMe!</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://play.google.com/store/apps/details?id=com.boombitgames.BridgeLowpoly">Build a Bridge</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://play.google.com/store/apps/details?id=com.keptaa.mustafiz.codesandstandards">Engineering Codes and Standards</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://play.google.com/store/apps/details?id=com.keptaa.mustafiz.codesandstandards">Civil Engineering Books and Notes</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="gate.html">GATE</a></li>
                         </ul>
                     </li>
 
