@@ -142,7 +142,7 @@ footer {
     width: auto;
 }
 
-.carousel .carousel-item {
+/* .carousel .carousel-item {
     height: 500px;
 }
 
@@ -152,23 +152,39 @@ footer {
     top: -30%;
     left: 0;
     min-height: 500px;
+} */
+
+.carousel .carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: -80%;
+    left: 0;
+    min-height: 500px;
 }
 
 .accordion-button {
     color: #000;
     font-weight: 700;
 }
-
+/* #carouselExampleFade {
+    border: 1px solid lime;
+} */
 @media (max-width: 768px) {
     body {
         padding: 10px;
     }
 
     .logoSectionResp img {
-        height: 50%;
-        width: 90%;
+        height: auto;
+        width: 100%;
     }
-
+    #carouselExampleFade {
+        height: min-content;
+    }
     .containerHolder-parent {
         display: flex;
         flex-direction: column;
@@ -177,6 +193,17 @@ footer {
     .stylerFImg {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
+    }
+    .carousel .carousel-item {
+        height: 300px;
+    }
+    
+    .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: -40%;
+        left: 0;
+        min-height: 500px;
     }
 }
 
