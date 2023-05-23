@@ -398,7 +398,7 @@ document.write(
                     <a class="nav-link" href="#">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Downloads</a>
+                    <a class="nav-link" href="downloads.html">Downloads</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="faqs.html">FAQs</a>
@@ -409,5 +409,4 @@ document.write(
         </div>
     </nav>
 </div>`
-
-)
+);
