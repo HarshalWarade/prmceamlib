@@ -16,7 +16,7 @@ document.write(
           <h5>Links</h5>
           <hr>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="/">Links</a></li>
+            <li class="mb-2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckVzdg3A8t4fmZdP33tw8dr4q5Nr8G76GyOYCLaxzPsYrvXA/viewform" target = "__blank">SGBAU PYQs</a></li>
             <li class="mb-2"><a href="/">Links</a></li>
             <li class="mb-2"><a href="/">Links</a></li>
             <li class="mb-2"><a href="/">Links</a></li>

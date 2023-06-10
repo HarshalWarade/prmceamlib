@@ -1,5 +1,5 @@
 document.write(
-    `<div class="mainHoldingContainer">
+    `<h2 class="baapElement" style="display:flex;justify-content:center;align-item:center;background:white;padding-bottom:20px;">Central Library</h2><div class="mainHoldingContainer">
     <nav class="navbar navbar-expand-lg" id="main_navbar">
         <div class="container-fluid">
             <a href="#" class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -63,7 +63,7 @@ document.write(
                                     <li><a class="dropdown-item" href="ndloic.html">National Digital Library Of India
                                             Club</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="#">NDLI club activities</a></li>
+                                    <li><a class="dropdown-item" href="clactndli.html">NDLI club activities</a></li>
                                     <li><a class="dropdown-item" href="cer.html">NDLI club certificates</a></li>
                                 </ul>
                             </li>
