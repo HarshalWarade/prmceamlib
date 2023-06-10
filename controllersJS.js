@@ -64,7 +64,7 @@ document.write(
                                             Club</a>
                                     </li>
                                     <li><a class="dropdown-item" href="#">NDLI club activities</a></li>
-                                    <li><a class="dropdown-item" href="#">NDLI club certificates</a></li>
+                                    <li><a class="dropdown-item" href="cer.html">NDLI club certificates</a></li>
                                 </ul>
                             </li>
                             <!-- <li class="nav-item dropdown">
