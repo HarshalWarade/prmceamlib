@@ -9,9 +9,7 @@ document.write(
           </a>
           <hr>
           <ul class="list-unstyled small">
-            <li class="mb-2" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dolorum eos, aut velit magni minus tenetur odit adipisci mollitia animi! Impedit officia voluptatibus
-              laborum animi numquam distinctio iusto dolorum magni sapiente.</li>
+            <li class="mb-2" style="text-align: justify;">Central Library is a seat of learning endeavor in any institution and so is ours. Central Library believes in the “Student first” philosophy and gives priority to serving students first.  Keeping pace with growing resources in the world, we strive hard to achieve the expectations of users and make them technologically sound by making available global resources all in one place.  PRMCEAM Library is on its way to becoming an outstanding learning resource center catering to the ever-growing and uncompromising information and intellectual requirements of the students and faculty.</li>
           </ul>
         </div>
         <div class="col-6 col-lg-2 offset-lg-1 mb-3">

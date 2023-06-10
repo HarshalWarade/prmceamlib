@@ -66,7 +66,7 @@ document.write(
                                     <li><a class="dropdown-item" href="#">NDLI club certificates</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="dropdown-item dropdown-toggle" href="#" role="button"
                                     data-bs-toggle="dropdown">
                                     Subject Guides
@@ -84,7 +84,7 @@ document.write(
                                     <li><a class="dropdown-item" href="#">Chemistry</a></li>
                                     <li><a class="dropdown-item" href="#">Science & Humanities</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li class="nav-item dropdown">
                                 <a class="dropdown-item dropdown-toggle" href="#" role="button"
                                     data-bs-toggle="dropdown">
