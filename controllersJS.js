@@ -395,7 +395,7 @@ document.write(
                     <a class="nav-link" href="#">Institutional Repository</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="downloads.html">Downloads</a>
