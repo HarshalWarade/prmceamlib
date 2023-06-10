@@ -62,16 +62,34 @@
 
         .arrangeInner {
             display: flex;
-            /* justify-content: center; */
-            gap:2rem;
+            gap: 2rem;
             align-items: center;
-            /* border: 1px solid red; */
         }
+
         .arrangeInner h5 {
             display: flex;
             justify-content: center;
             align-items: center;
             margin: auto 0;
+        }
+
+        .arrangeInner .btnsWorkers {
+            display: flex;
+            justify-content: flex-start;
+            gap: 2rem;
+            width: 100%;
+            align-items: center;
+        }
+
+        @media (max-width: 975px) {
+            .arrangeInner {
+                flex-direction: column;
+            }
+
+            .arrangeInner .btnsWorkers {
+                justify-content: space-between;
+            }
+
         }
     </style>
 
@@ -80,8 +98,10 @@
     <div class="mainSeparation">
         <div class="arrangeInner">
             <h5>Book Recommendation Form</h5>
-            <a href="forms/form1.pdf" download class="btn btn-outline-primary">Download</a>
-            <a href="forms/form1.pdf" class="btn btn-primary">View</a>
+            <div class="btnsWorkers">
+                <a href="forms/form1.pdf" download class="btn btn-outline-primary">Download</a>
+                <a href="forms/form1.pdf" class="btn btn-primary">View</a>
+            </div>
         </div>
     </div>
     <br>
