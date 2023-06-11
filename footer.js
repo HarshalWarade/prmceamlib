@@ -21,43 +21,43 @@ document.write(
             <li class="mb-2"><a href="qrcodes.html" target = "__blank">QRCodes</a></li>
             <li class="mb-2"><a href="downloads.html" target = "__blank">Downloads</a></li>
             <li class="mb-2"><a href="events.html" target = "__blank">Events and Activities</a></li>
-            <li class="mb-2"><a href="/">HOME</a></li>
+            <li class="mb-2"><a href="index.html">HOME</a></li>
           </ul>
         </div>
         <div class="col-6 col-lg-2 mb-3">
           <h5>Something</h5>
           <hr>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="/">Some Other Links</a></li>
-            <li class="mb-2"><a href="/">Some Other Links</a></li>
-            <li class="mb-2"><a href="/">Some Other Links</a></li>
-            <li class="mb-2"><a href="/">Some Other Links</a></li>
-            <li class="mb-2"><a href="/">Some Other Links</a></li>
-            <li class="mb-2"><a href="/">Some Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Some Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Some Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Some Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Some Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Some Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Some Other Links</a></li>
           </ul>
         </div>
         <div class="col-6 col-lg-2 mb-3">
           <h5>Projects</h5>
           <hr>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="/">Other Links</a></li>
-            <li class="mb-2"><a href="/">Other Links</a></li>
-            <li class="mb-2"><a href="/">Other Links</a></li>
-            <li class="mb-2"><a href="/">Other Links</a></li>
-            <li class="mb-2"><a href="/">Other Links</a></li>
-            <li class="mb-2"><a href="/">Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Other Links</a></li>
+            <li class="mb-2"><a href="index.html">Other Links</a></li>
           </ul>
         </div>
         <div class="col-6 col-lg-2 mb-3">
           <h5>Else Something</h5>
           <hr>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="/">Else links</a></li>
-            <li class="mb-2"><a href="/">Else links</a></li>
-            <li class="mb-2"><a href="/">Else links</a></li>
-            <li class="mb-2"><a href="/">Else links</a></li>
-            <li class="mb-2"><a href="/">Else links</a></li>
-            <li class="mb-2"><a href="/">Else links</a></li>
+            <li class="mb-2"><a href="index.html">Else links</a></li>
+            <li class="mb-2"><a href="index.html">Else links</a></li>
+            <li class="mb-2"><a href="index.html">Else links</a></li>
+            <li class="mb-2"><a href="index.html">Else links</a></li>
+            <li class="mb-2"><a href="index.html">Else links</a></li>
+            <li class="mb-2"><a href="index.html">Else links</a></li>
           </ul>
         </div>
       </div>
