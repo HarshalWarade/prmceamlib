@@ -210,6 +210,22 @@ footer {
         left: 0;
         min-height: 500px;
     }
+
+    .containerHolder-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .leftParent {
+        order: 2;
+    }
+    .rightParent {
+        order: 1;
+    }
+    .rightParentsd {
+        order: 3;
+    }
 }
 
 
