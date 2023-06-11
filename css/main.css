@@ -250,6 +250,12 @@ footer a:hover {
 
 .baapElement {
     font-family: 'Gothic A1', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.689);
+    padding-bottom: 20px;
     font-size: 30px;
     font-weight: 800;
+    background: white;
 }
