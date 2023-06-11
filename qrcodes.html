@@ -67,9 +67,16 @@
         .infoLittle a {
             text-decoration: none;
         }
+        @media (max-width: 768px) {
+            .qrcodes {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
     </style>
     <h3 class="mainHeading" data-aos="fade-up">QR Codes</h3>
-    <!-- <hr> -->
     <div class="mainSeparation">
         <div class="qrcodes">
             <div class="codeContainer">
