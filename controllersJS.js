@@ -1,5 +1,5 @@
 document.write(
-    `<h2 class="baapElement" style="display:flex;justify-content:center;align-item:center;background:white;padding-bottom:20px;">Central Library</h2><div class="mainHoldingContainer">
+    `<div class="mainHoldingContainer">
     <nav class="navbar navbar-expand-lg" id="main_navbar">
         <div class="container-fluid">
             <a href="#" class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,7 +41,7 @@ document.write(
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="genServices.html">General Services</a></li>
                             <li><a class="dropdown-item" href="#">Services for Persons with Disabilities</a></li>
-                            <li><a class="dropdown-item" href="#">Document Delivery Service</a></li>
+                            <li><a class="dropdown-item" href="docdelser.html">Document Delivery Service</a></li>
                             <li><a class="dropdown-item" href="#">New Arrivals</a></li>
                             <li><a class="dropdown-item" href="qrcodes.html">QR Code</a></li>
                         </ul>

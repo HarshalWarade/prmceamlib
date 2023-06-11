@@ -223,6 +223,14 @@ footer {
 
 footer a {
     text-decoration: none;
+    transition: 0.4s ease;
+    color: #777;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+footer a:hover {
+    color: black;
+    border-bottom: 2px solid #000;
 }
 
 .baapElement {

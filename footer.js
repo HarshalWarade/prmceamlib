@@ -17,11 +17,11 @@ document.write(
           <hr>
           <ul class="list-unstyled">
             <li class="mb-2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckVzdg3A8t4fmZdP33tw8dr4q5Nr8G76GyOYCLaxzPsYrvXA/viewform" target = "__blank">SGBAU PYQs</a></li>
-            <li class="mb-2"><a href="/">Links</a></li>
-            <li class="mb-2"><a href="/">Links</a></li>
-            <li class="mb-2"><a href="/">Links</a></li>
-            <li class="mb-2"><a href="/">Links</a></li>
-            <li class="mb-2"><a href="/">Links</a></li>
+            <li class="mb-2"><a href="https://sgbau.ac.in/pages/EmploymentBulletin.aspx" target = "__blank">Career/Employment Bulletin(SGBAU)</a></li>
+            <li class="mb-2"><a href="qrcodes.html" target = "__blank">QRCodes</a></li>
+            <li class="mb-2"><a href="downloads.html" target = "__blank">Downloads</a></li>
+            <li class="mb-2"><a href="events.html" target = "__blank">Events and Activities</a></li>
+            <li class="mb-2"><a href="/">HOME</a></li>
           </ul>
         </div>
         <div class="col-6 col-lg-2 mb-3">
