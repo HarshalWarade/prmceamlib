@@ -29,6 +29,8 @@ document.write(
                             <li><a class="dropdown-item" href="openingHours.html" id="aoh">Opening Hours</a></li>
                             <li><a class="dropdown-item" href="rulesandreg.html" id="arar">Rules and Regulations</a>
                             </li>
+                            <li><a class="dropdown-item" href="forms/Library information Brochure.pdf" id="arar">Library information brochure</a>
+                            </li>
                             <li><a class="dropdown-item" href="libraryteam.html" id="alt">Library Team</a></li>
                         </ul>
                     </li>
@@ -40,9 +42,10 @@ document.write(
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="genServices.html">General Services</a></li>
-                            <li><a class="dropdown-item" href="#">Services for Persons with Disabilities</a></li>
+                            <li><a class="dropdown-item" href="serforperdis.html">Services for Persons with Disabilities</a></li>
                             <li><a class="dropdown-item" href="docdelser.html">Document Delivery Service</a></li>
                             <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+                            <li><a class="dropdown-item" href="newsclips.html">Newspaper Clippings</a></li>
                             <li><a class="dropdown-item" href="qrcodes.html">QR Code</a></li>
                         </ul>
                     </li>
@@ -435,6 +438,9 @@ document.write(
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Institutional Repository</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="opac.html">OPAC</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="events.html">Events</a>
