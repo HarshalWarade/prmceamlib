@@ -272,7 +272,7 @@ document.write(
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" target="_blank"
-                                            href="http://e-paperview.in/">E-Paperview</a></li>
+                                            href="http://www.enewspaper.in/">E-Paperview</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
