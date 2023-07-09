@@ -91,7 +91,7 @@ input[type=number]:focus,
     background: #F2F2F2;
     display: flex;
     padding: 20px 0;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     gap: 2rem;
@@ -216,12 +216,15 @@ footer {
         align-items: center;
         flex-direction: column;
     }
+
     .leftParent {
         order: 2;
     }
+
     .rightParent {
         order: 1;
     }
+
     .rightParentsd {
         order: 3;
     }
