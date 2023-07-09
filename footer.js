@@ -1,5 +1,6 @@
 document.write(
-    `<footer class="bd-footer py-2 py-md-5 mt-5 bg-body-tertiary">
+    `   
+    <footer class="bd-footer py-2 py-md-5 mt-5 bg-body-tertiary">
     <div class="container py-md-5 px-4 px-md-3 text-body-secondary">
       <div class="row">
         <div class="col-lg-3 mb-3">
@@ -60,6 +61,10 @@ document.write(
             <li class="mb-2"><a href="ndloic.html">National Digital Library Of India Club</a></li>
           </ul>
         </div>
+      </div>
+      <div class = "container visitorCounter">
+      <a href='https://acadooghostwriter.com/'>acadooghostwriter.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=bad1809bb936d9a030970ececc7e06c1202657f6'></script>
+      <script type="text/javascript" src="https://freevisitorcounters.com/en/home/counter/1051340/t/2"></script>
       </div>
     </div>
   </footer>`
