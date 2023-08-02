@@ -207,18 +207,57 @@
         </div>
       </div>
 
+
       <div class="card" data-aos="fade-up" style="border-radius: 0px; width: 95%;">
         <h5 class="card-header" style="background-color: #004488; color: white; border-radius: 0px;">Notice and
           Circulars</h5>
-        <div class="card-body" style="line-height: 30px; text-align: justify;">
-          <b>Book Bank Books Return</b>
-          <hr>
-          <p style="line-height: 25px;">All the students of Final Year BE (all branches) are hearby informed to return
-            all the Book Bank Books / Normal Books / CDs / DVDs / Journals issued from the library as soon as the
-            University exams are over. Contact your librarian for any further queries.</p>
-          <p>Librarian PRMCEAM</p>
+        <div class="card-body" style="line-height: 30px; text-align: justify; overflow: hidden;">
+          <div id="scrollingContainer" style="max-height: 300px; overflow-y: hidden;">
+            <div id="scrollingContent">
+              <div class="notice">
+                <b>Book Bank Books Return</b>
+                <hr>
+                <p style="line-height: 25px;">All the students of Final Year BE (all branches) are hereby informed to
+                  return
+                  all the Book Bank Books / Normal Books / CDs / DVDs / Journals issued from the library as soon as the
+                  University exams are over. Contact your librarian for any further queries.</p>
+                <p>Librarian PRMCEAM</p>
+              </div>
+              <!-- Add more content here -->
+            </div>
+          </div>
         </div>
       </div>
+
+
+
+
+
+
+      <style>
+        /* Define animation for infinite scrolling */
+        @keyframes scrollUpAnimation {
+          0% {
+            transform: translateY(0);
+          }
+
+          100% {
+            transform: translateY(-100%);
+          }
+        }
+
+        /* Apply animation to the scrolling content */
+        #scrollingContent {
+          animation: scrollUpAnimation 10s linear infinite;
+        }
+
+        /* Ensure scrollingContainer shows the content within the specified height */
+        #scrollingContainer {
+          max-height: 300px;
+          overflow-y: scroll;
+        }
+      </style>
+
 
 
       <div class="card" data-aos="fade-up" style="border-radius: 0px; width: 95%;">

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Foldit:wght@600&family=Gothic+A1:wght@600;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@font-face {
+    font-family: harshalFont;
+    src: url(/SFPRODISPLAYREGULAR.OTF);
+}
 * {
     margin: 0;
     padding: 0;
-    /* font-family: 'Noto Serif Lao', serif; */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: harshalFont;
     box-sizing: border-box;
 }
 
