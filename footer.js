@@ -72,8 +72,7 @@ document.write(
       </div>
     </div>
     <div class="creator" style="font-size: 13px; display: flex; flex-direction: column;">
-      <p>Website created and Managed by:</p>
-      <p>Harshal Dilip Warade</p>
+      <p>This website is created and managed by Harshal Dilip Warade</p>
       <p>3rd Year IT Section-B - LinkedIn -> <a href="https://www.linkedin.com/in/harshalwarade/"> https://www.linkedin.com/in/harshalwarade/</a> </p>
     </div>
   </div>
