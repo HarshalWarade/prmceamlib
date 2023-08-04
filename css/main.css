@@ -254,7 +254,7 @@ footer a:hover {
 }
 
 .baapElement {
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Gothic A1', -serif;
     display: flex;
     justify-content: center;
     align-items: center;
