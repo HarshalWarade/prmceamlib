@@ -73,7 +73,7 @@ document.write(
     </div>
     <div class="creator" style="font-size: 13px; display: flex; flex-direction: column;">
       <p>This website is created and managed by Harshal Dilip Warade</p>
-      <p>3rd Year IT Section-B - LinkedIn -> <a href="https://www.linkedin.com/in/harshalwarade/"> https://www.linkedin.com/in/harshalwarade/</a> </p>
+      <p>3rd Year IT Section-B - LinkedIn -> <a href="https://www.linkedin.com/in/harshal-warade-31615b236/"> https://www.linkedin.com/in/harshal-warade-31615b236/</a> </p>
     </div>
   </div>
 </footer>`
