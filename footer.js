@@ -1,6 +1,6 @@
 document.write(
   `   
-  <footer class="bd-footer py-2 py-md-5 mt-5 bg-body-tertiary">
+  <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
   <div class="container py-md-5 px-4 px-md-3 text-body-secondary">
     <div class="row">
       <div class="col-lg-3 mb-3">
@@ -73,7 +73,7 @@ document.write(
     </div>
     <div class="creator" style="font-size: 13px; display: flex; flex-direction: column;">
       <p>This website is created and managed by Harshal Dilip Warade</p>
-      <p>3rd Year IT Section-B - LinkedIn -> <a href="https://www.linkedin.com/in/harshal-warade-31615b236/"> https://www.linkedin.com/in/harshal-warade-31615b236/</a> </p>
+      <p>Final Year (IT) - LinkedIn -> <a href="https://www.linkedin.com/in/harshal-warade-31615b236/"> https://www.linkedin.com/in/harshal-warade-31615b236/</a> </p>
     </div>
   </div>
 </footer>`
